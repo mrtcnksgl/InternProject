@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "358583424457",
+    "project_id": "authenticationfirebase-fb12c",
+    "storage_bucket": "authenticationfirebase-fb12c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358583424457:android:c4f7fb1465f74b46c00418",
+        "android_client_info": {
+          "package_name": "com.innova.authenticationfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358583424457-rot4rlkj5vuv07cmjl15t1p7u1u1bd2q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.innova.authenticationfirebase",
+            "certificate_hash": "dc66b95db0a57a157b599644657dd116a15048ab"
+          }
+        },
+        {
+          "client_id": "358583424457-qt6r0gvi3n87hj60frlj4b1dtf09b050.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY4R5DRNdIKPGEK0ni4Wu3HKQ764sEKf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358583424457-qt6r0gvi3n87hj60frlj4b1dtf09b050.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

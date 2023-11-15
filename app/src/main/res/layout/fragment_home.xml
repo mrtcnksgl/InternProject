@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.MainActivity">
+
+    <ImageView
+        android:id="@+id/homeImageView"
+        android:layout_width="814dp"
+        android:layout_height="2094dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485"
+        app:srcCompat="@drawable/triangle_background" />
+
+    <TextView
+        android:id="@+id/companyView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/companyText"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/billButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/billButton"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/white"
+        android:gravity="left|center_vertical"
+        android:text="@string/billDetailsText"
+        android:textAllCaps="false"
+        android:textColor="@color/centerColor"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/bill_icon"
+        app:layout_constraintBottom_toTopOf="@+id/addressButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/companyView"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/addressButton"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/white"
+        android:gravity="left|center_vertical"
+        android:text="@string/addressText"
+        android:textAllCaps="false"
+        android:textColor="@color/centerColor"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/map_icon"
+        app:layout_constraintBottom_toTopOf="@+id/iDriveButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/billButton"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/iDriveButton"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="400dp"
+        android:backgroundTint="@color/endColor"
+        android:gravity="left|center_vertical"
+        android:text="@string/iDriveText"
+        android:textAllCaps="false"
+        android:textColor="@color/centerColor"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/cloud_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addressButton"
+        tools:ignore="RtlHardcoded" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

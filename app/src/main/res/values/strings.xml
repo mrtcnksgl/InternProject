@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AuthenticationFirebase</string>
+    <string name="loginText">Mobile Port</string>
+    <string name="submitButtonText">Giriş Yap</string>
+    <string name="checkBox">Beni Hatırla</string>
+    <string name="loginEmailLayoutHint">E-Mail:</string>
+    <string name="loginPasswordLayoutHint">Şifre:</string>
+
+    <string name="billDetailsText">Fatura Detayları</string>
+    <string name="addressText">Adres Detayları</string>
+    <string name="iDriveText">iDrive Innova</string>
+    <string name="bottomNavHome">Ana Menü</string>
+    <string name="bottomNavProfile">Profil</string>
+    <string name="profileText">Profil</string>
+    <string name="checkText">Check-in Detayları</string>
+    <string name="signOutText">Çıkış</string>
+    <string name="companyText">Şirket Detayları</string>
+    <string name="userText">Kullanıcı Detayları</string>
+    <string name="profilButton">Profil</string>
+    <string name="companyName">Company Name</string>
+    <string name="companyNameText">İnnova Bilişim Çözümleri A.Ş.</string>
+    <string name="addressBill">Adres</string>
+    <string name="addressBillText">ITU Ayazağa Kampusu, Teknokent ARI 4 Binası 34469/ İSTANBUL</string>
+    <string name="vdNo">VD and NO</string>
+    <string name="vdNoText">Boğaziçi Kurumlar Vergi Dairesi: 478 016 38 31</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps_activitydeneme">MapsActivitydeneme</string>
+
+</resources>

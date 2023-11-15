@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- İlk Renk (Örneğin Mavi) -->
+
+
+    <item android:drawable="@drawable/constraint_background"
+        android:height="12000dp"
+        android:width="8000dp"/>
+
+    <!-- Dik Yamuk Şekli (İkinci Renk ile Geçişli) -->
+    <item android:top="0dp"
+        android:height="10000dp"
+        android:width="9500dp">
+        <rotate
+            android:fromDegrees="45"
+            android:pivotX="20%"
+            android:pivotY="0%">
+            <shape
+                android:shape="rectangle">
+                <solid android:color="@color/centerColor" />
+            </shape>
+        </rotate>
+    </item>
+
+    <item android:top="1000dp"
+        android:height="10000dp"
+        android:width="9500dp">
+        <rotate
+            android:fromDegrees="45"
+            android:pivotX="-20%"
+            android:pivotY="150%">
+            <shape
+                android:shape="rectangle">
+                <solid android:color="@color/centerColor" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
